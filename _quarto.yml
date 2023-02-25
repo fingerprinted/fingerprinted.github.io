@@ -1,18 +1,13 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   title: "fingerprinted"
-  navbar:
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
 format:
   html:
-    theme: cosmo
+    theme: 
+      - litera
+      - custom.scss
     css: styles.css
 
 
